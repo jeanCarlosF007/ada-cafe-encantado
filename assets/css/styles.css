@@ -327,9 +327,6 @@ aside p {
     margin: auto 20rem;
     font-size: 3rem;
     font-family: 'Charm', cursive;
-    background: url('https://img.freepik.com/fotos-gratis/arranjo-com-livros-e-fundo-escuro_23-2148898276.jpg?w=1380&t=st=1705949782~exp=1705950382~hmac=c0c204fc5751d6f0b8a3b978673b1ada8373c748872c43d1f3c76bdd11ee63e3')
-                center center no-repeat;
-    background-size: cover; 
 }
 
 #back-to-home-button {
