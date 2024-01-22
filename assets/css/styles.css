@@ -249,7 +249,7 @@ footer {
     color: var(--white-color);
     font-size: 2.5rem;
     font-family: 'Charm', cursive;
-    background: url('https://img.freepik.com/fotos-gratis/cafe-preto-fumegante-em-caneca-de-madeira-rustica-gerada-por-ia_188544-13429.jpg?w=1380&t=st=1705942611~exp=1705943211~hmac=e1574f98a0f8e9241b4d1bd9e2ef7d99444c8c7778214e68e7f893abb61aead8') center center no-repeat;
+    background: url('../images/footer-coffe.png') center center no-repeat;
     background-size: cover;
 }
 
