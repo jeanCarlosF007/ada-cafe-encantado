@@ -1,0 +1,359 @@
+/*https://cdn.dribbble.com/users/2686929/screenshots/12395761/media/4ee3f857f29be3669a1f7ecc78da5251.jpg?resize=1000x750&vertical=center
+Coffe Club image
+'Petit Formal Script', cursive;
+'Charm', cursive;
+#160f0a - primary
+#503522 - secondary
+
+    background: url() center center no-repeat;
+    background-size: cover; 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Roboto:wght@300;400;700&family=Petit+Formal+Script&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
+:root {
+    --white-color: #FFFFFF;
+    --primary-color: #061120;
+    --secondary-color: #0c1f3a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: var(--primary-color);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.header-menu {
+    position: fixed;
+    width: 100vw;
+    display:inline-block;
+    padding: 1rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+    background: url('https://img.freepik.com/fotos-gratis/livros-de-bebidas-quentes-e-relaxamento-em-ambientes-fechados-gerados-por-ia_188544-30482.jpg?w=1380&t=st=1705943425~exp=1705944025~hmac=a6a03827a200e07d5a888529386fa60f75a45fa5728937f53e20ef256acc80e1') center center no-repeat;
+    background-size: cover;
+}
+
+.items-menu {
+    padding: 1rem;
+}
+
+.items-menu a:hover {
+    opacity: 0.75;    
+}
+
+.items-menu a {
+    text-decoration: none;
+    color:var(--white-color);
+    font-size: 2.8rem;
+    margin: auto 5rem;
+}
+
+.logo-header {
+    float: left;
+    padding: 0 2rem;
+}
+
+.logo-header img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.title-and-description {
+    text-align: center;
+}
+
+main {
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.opening-content{
+    height: 100vh;
+    width: 65vw;
+    text-align: center;
+    align-items: center;
+    padding-top: 30rem;
+    margin: auto 20rem;
+    font-size: 3rem;
+    font-family: 'Charm', cursive;
+    margin-right: 25rem;
+    background: url('https://img.freepik.com/fotos-gratis/xicara-de-cafe-com-pires-na-mesa-com-desfocagem-cafe-fundo_23-2148209262.jpg?w=1380&t=st=1705941259~exp=1705941859~hmac=8de832e53334e472ed31a09fc4364b9a334e72771d982b17c6066d110413b711')
+                center center no-repeat;
+    background-size: cover; 
+}
+
+.main-title {
+    font-size: 8rem;
+    margin-bottom: 6rem;
+}
+
+.opening-content p {
+    margin: auto 15rem;
+}
+
+.our-history{
+    height: 100vh;
+    width: 80vw;
+    align-items: center;
+    padding: 12rem 10rem 15rem 10rem;
+    margin: 5rem auto 20rem auto;
+    background: #3f2b1d;
+    font-size: 2.4rem;
+    text-align:center;
+    background: url('https://img.freepik.com/fotos-gratis/arte-e-artesanato-religiosos-exibidos-em-esculturas-geradas-por-ia_188544-13354.jpg?w=1380&t=st=1705943581~exp=1705944181~hmac=535a9a542a81eae580cdea290b004de8a3bc17b06a852f84a8bad993ef21bffc') center center no-repeat;
+    background-size: cover; 
+}
+
+.our-history h2 {
+    font-size: 6rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    font-family: 'Charm', cursive;
+    text-decoration: underline;
+}
+
+.our-history p {
+    margin-bottom: 6rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.events {
+    height: 100vh;
+    width: 95vw;
+    text-align: center;
+    align-items: center;
+    padding-top: 12.5rem;
+    margin: auto 3rem;
+    background: url('https://img.freepik.com/fotos-gratis/vitrine-de-produtos-com-fundo-de-sala-de-estudio-preto-em-destaque-como-montagem-para-exibicao-de-produtos_1258-108942.jpg?w=1380&t=st=1705941954~exp=1705942554~hmac=d1b1f9a23859166eec6c72f60ca44f231a59daaa48bc1cf639fe5390a7da961c') center center no-repeat;
+    background-size: cover;
+}
+
+.events h2 {
+    font-size: 6rem;
+    font-family: 'Charm', cursive;
+    margin-bottom: 10rem;
+    text-decoration: underline;
+}
+
+.events-calendar {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.events-calendar th {
+    font-size: 2.6rem;
+}
+
+.events-calendar tr td {
+    padding: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.newsletter {
+    height: 100vh;
+    width: 95vw;
+    padding-top: 12.5rem;
+    margin: auto 3rem;
+    background: url('https://img.freepik.com/fotos-gratis/expresso-italiano-em-uma-xicara-preta-cafe-no-cafe-da-manha-xicara-de-cafe-fresco-entre-graos-de-cafe-closeup_166373-1988.jpg?w=1380&t=st=1705942834~exp=1705943434~hmac=8c080af9349d053cfe74f02da2e99f44f6fe71bbbb0eef1eeb00792e32965a63') center center no-repeat;
+    background-size: cover;
+}
+
+.newsletter h3 {
+    font-size: 3.5rem;
+    font-family: 'Charm', cursive;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.newsletter p {
+    font-size: 3rem;
+    margin-bottom: 10rem;
+    font-family: 'Charm', cursive;
+    text-align: center;
+}
+
+.final-form {
+    font-size: 2.2rem;
+    display:inline;
+}
+
+.final-form input[type=text], input[type=tel], input[type=email] {
+    margin-bottom: 1.6rem;
+    border: none;
+    border-radius: 0.25rem;
+    width: 30rem;
+    height: 2.2rem;
+    font-size:1.8rem;
+}
+
+.final-form fieldset {
+    border: none;
+}
+
+.final-form fieldset legend {
+    margin-bottom: 1.6rem;
+}
+
+.general-form {
+    float: left;
+}
+
+.suggestions {
+    text-align: center;
+    font-weight: bold;
+}
+
+#suggestions {
+    margin-top: 6rem;
+    color: transparent;
+    background: transparent;
+    border: 0.2rem solid var(--white-color);
+    color: var(--white-color);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.8rem;
+}
+
+.form-container {
+    padding: 1rem 5rem;
+    margin: 0 10rem;
+}
+
+#submit-button {
+    border-color:var(--white-color);
+    background: var(--secondary-color);
+    color: var(--white-color);
+    width: 14rem;
+    height: 4rem;
+    font-size: 2.4rem;
+    padding: 0 1.6rem;
+    margin-top: 2rem;
+    border-radius: 1.4rem;
+}
+
+#submit-button:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+footer {
+    width: 100vw;
+    padding-top: 8rem;
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-family: 'Charm', cursive;
+    background: url('https://img.freepik.com/fotos-gratis/cafe-preto-fumegante-em-caneca-de-madeira-rustica-gerada-por-ia_188544-13429.jpg?w=1380&t=st=1705942611~exp=1705943211~hmac=e1574f98a0f8e9241b4d1bd9e2ef7d99444c8c7778214e68e7f893abb61aead8') center center no-repeat;
+    background-size: cover;
+}
+
+.final-icons a img{
+    height:3.5rem;
+    width: 3.5rem;
+}
+
+aside {
+    max-width: 30rem;
+    height: 100vh;
+    padding-top: 15rem;
+    float: right;
+    color: var(--white-color);
+    text-align: center;
+    background: var(--secondary-color);
+    font-size: 2rem;
+    font-family: 'Charm', cursive;
+}
+
+aside p {
+    margin-bottom: 4rem;
+}
+
+.catalog {
+    min-height: 100vh;
+    width: 80vw;
+    text-align: center;
+    align-items: center;
+    padding-top: 15rem;
+    margin: auto 20rem;
+    font-family: 'Charm', cursive;
+}
+
+.catalog h2 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Charm', cursive;
+}
+
+.catalog p {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.catalog-session {
+    align-items:center;
+}
+
+.catalog-session figure {
+    display:inline-block;
+    max-width: 25vw;
+    font-size: 2.6rem;
+    padding: 4rem;
+    margin: auto;
+    vertical-align: top;
+}
+
+.catalog-session h3 {
+    font-size: 4rem;
+    margin: 6rem auto;
+}
+
+.catalog-session figure img {
+    max-width: 20vw;
+}
+
+.submitted-form-page-main-content {
+    height: 100vh;
+    width: 80vw;
+    text-align: center;
+    align-items: center;
+    padding-top: 20rem;
+    margin: auto 20rem;
+    font-size: 3rem;
+    font-family: 'Charm', cursive;
+    background: url('https://img.freepik.com/fotos-gratis/arranjo-com-livros-e-fundo-escuro_23-2148898276.jpg?w=1380&t=st=1705949782~exp=1705950382~hmac=c0c204fc5751d6f0b8a3b978673b1ada8373c748872c43d1f3c76bdd11ee63e3')
+                center center no-repeat;
+    background-size: cover; 
+}
+
+#back-to-home-button {
+    border: 0.2rem solid var(--white-color);
+    border-radius: 2rem;
+    background: var(--primary-color);
+    color: var(--white-color);
+    padding: 2rem;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+#back-to-home-button:hover {
+    background: var(--secondary-color);
+    cursor: pointer;
+}
